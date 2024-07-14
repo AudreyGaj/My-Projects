@@ -1,0 +1,260 @@
+/* Center the image and text */
+.text-center {
+    text-align: center;
+}
+
+/* Center the image */
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Add padding after the image */
+.padded-image {
+    margin-bottom: 20px;
+}
+
+/* Styling for navbar */
+.navbar {
+	position: static;
+}
+
+/* css transitions for zoom effect */
+.zoom {
+	transition: .5s ease;
+}
+
+/* Zoom effect on hover */
+.zoom:hover {
+	transform: scale(2.0);
+}
+
+/* Styling for the container */
+.container {
+	padding: 20px
+}
+
+/* Styling for headers */
+h1 {
+	text-align: center;
+	font-style: italic;
+	padding-bottom: 10px;
+	padding-top: 1em;
+}
+
+h2 {
+	text-align: center;
+	margin: 4px;
+	padding-bottom: 30px;
+	font-size: 19px;
+}
+
+h3 {
+	color: skyblue;
+	font-style: italic;
+}
+
+h3 {
+	padding-bottom: 35px;
+}
+
+h4 {
+	padding-bottom: 35px;
+}
+
+h5 {
+	text-align: center;
+	text-align: justify;
+}
+
+/* Styling for card elements */
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card-img-top {
+	object-fit: scale-down;
+	height: 200px;
+}
+
+.card-img1-top {
+	object-fit: cover;
+	height: 250px;
+}
+
+.card-img-top2 {
+	object-fit: cover;
+	height: 400px;
+}
+
+.card-text {
+	text-align: justify;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Styling for columns */
+.col-sm-6 {
+	text-align: justify;
+}
+
+.col-sm-6 {
+	padding-top: 15px;
+}
+
+.col-sm-3 {
+	padding-top: 15px;
+}
+
+.col-1 {
+	padding-top: 50px;
+}
+
+.col-10 {
+	text-align: justify;
+}
+
+/* Styling for buttons */
+.btn btn-primary ml-lg-3 {
+	background-color: white;
+	color: black;
+	border: 2px solid #008CBA;
+}
+
+.btn btn-primary {
+	background-color: white;
+	color: black;
+	border: 2px solid #008CBA;
+}
+
+/* css transitions for flip effect */
+.flip {
+	transition: 1.5s ease;
+}
+
+/* Flip effect on hover */
+.flip:hover {
+	transform: scaleX(-1);
+}
+
+/*  Styling for form-group elements */
+.form-group {
+	margin: 15px;
+}
+
+/* Flex property for main element */
+main {
+	flex: 1;
+}
+
+/* Styling for Buy Me webpage buttons */
+#addButton {
+	background-color: blue;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.remove-button {
+	background-color: darkgreen;
+	color: white;
+
+}
+
+/* Styling for footer */
+footer {
+	text-align: center;
+	font-size: x-small;
+	font-style: italic;
+	background-color: #f2f2f2;
+	padding: 5px;
+	color: dimgray;
+	flex-shrink: 0;
+	position: static;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+}
+
+footer h6 {
+	margin-bottom: 5px; /* Spacing below the footer */
+}
+
+footer p {
+	margin-bottom: 5px; /* Spacing above the footer */
+}
+
+/* Responsive styling */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-img-top,
+    .card-img1-top,
+    .card-img-top2 {
+        height: auto;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* Additional custom responsive styles */
+@media (max-width: 992px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+
+
+
