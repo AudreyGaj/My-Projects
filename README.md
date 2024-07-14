@@ -79,15 +79,6 @@ To clone and deploy this project for yourself, follow these steps:
     ```bash
     cd galway-wanderlust
     ```
-
-### Running Locally
-
-To run the project locally, you can use a simple HTTP server. If you have Python installed, you can run the following command:
-
-```bash
-# For Python 3.x
-python -m http.server 8000
-
 ## Credits
 
 ### Content
