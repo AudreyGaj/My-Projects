@@ -3,7 +3,7 @@
 
 Galway WanderLust is a site designed to help tourists explore and discover the vibrant city of Galway, Ireland. The site provides comprehensive information about local attractions, cultural spots, and activities. It aims to be the go-to resource for tourists planning their trip to Galway, offering insights into must-visit locations, shopping options, and more.
 
-![Responsive Mockup]
+![Responsive Mockup](Images/mockup.png)
 
 ## Features
 
